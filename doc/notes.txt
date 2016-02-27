@@ -1,0 +1,3 @@
+
+For Dev & Prod specific Webpack configs check this example:
+https://github.com/aneesdhansey/udemy-react-blogpost-app

@@ -1,9 +1,10 @@
 import { combineReducers } from 'redux';
-import WeatherReducer from './reducer_weather';
+import PostReducer from './reducer_posts';
 
 const rootReducer = combineReducers({
 
-    weather: WeatherReducer
+    //state: (state = {}) => state
+    posts: PostReducer
 
 });
 
