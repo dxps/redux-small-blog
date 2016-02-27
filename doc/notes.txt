@@ -1,3 +1,23 @@
 
 For Dev & Prod specific Webpack configs check this example:
 https://github.com/aneesdhansey/udemy-react-blogpost-app
+
+
+Actions for implementing post creation feature:
+
+1. Scaffold out the component to show the post creation form.
+
+2. Add the component to the routes.
+
+3. Implement an 'Add Post' button to the index.
+
+4. Add the form to the post creation component.
+   Submitting the form will call an action creator.
+
+5. Create the action creator and update the reducer.
+
+
+_______________________________________________________________________________
+
+Prefixed / to style/style.css and bundle.js in index.html.
+Otherwise, for requests like /posts/new it threw 404 as referred /posts/style/style.css and /posts/bundle.js.
